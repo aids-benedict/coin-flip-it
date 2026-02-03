@@ -190,7 +190,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Built with [Next.js](https://nextjs.org)
-- Powered by [Anthropic Claude](https://anthropic.com)
-- Database and Auth by [Supabase](https://supabase.com)
-- Co-created with [Claude Code](https://claude.com/claude-code)
+This project was built with the help of these amazing technologies:
+
+- **[Next.js](https://nextjs.org)** - The React framework for production
+- **[Anthropic Claude](https://anthropic.com)** - Advanced AI for decision analysis
+- **[Supabase](https://supabase.com)** - Open source Firebase alternative (Database & Auth)
+- **[Prisma](https://prisma.io)** - Next-generation ORM for Node.js and TypeScript
+- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS framework
+- **[TypeScript](https://typescriptlang.org)** - JavaScript with syntax for types
+- **[Claude Code](https://claude.com/claude-code)** - AI pair programmer
+
+Special thanks to the open-source community for making these tools available.
