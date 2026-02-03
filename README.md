@@ -5,7 +5,7 @@ An AI-powered decision-making tool that helps you make better choices by analyzi
 ## Features
 
 ### Core Decision Making
-- **AI Analysis**: Get comprehensive analysis of your decision options using GPT-4
+- **AI Analysis**: Get comprehensive analysis of your decision options using Claude (or your preferred LLM)
 - **Weighted Recommendations**: Receive weighted scores for each option with best/worst case scenarios
 - **Key Factors**: Identify the most important factors influencing your decision
 
@@ -34,13 +34,13 @@ An AI-powered decision-making tool that helps you make better choices by analyzi
 - **Database**: [Supabase PostgreSQL](https://supabase.com)
 - **ORM**: [Prisma](https://www.prisma.io)
 - **Authentication**: [Supabase Auth](https://supabase.com/docs/guides/auth)
-- **AI**: [OpenAI GPT-4](https://openai.com)
+- **AI**: [Anthropic Claude](https://anthropic.com) (configurable for other LLMs)
 
 ## Prerequisites
 
 - Node.js 18+ and npm
 - A [Supabase](https://supabase.com) account
-- An [OpenAI API](https://platform.openai.com) key
+- An [Anthropic API](https://console.anthropic.com) key (or other LLM provider)
 
 ## Getting Started
 
@@ -71,8 +71,9 @@ SUPABASE_SERVICE_ROLE_KEY="your-supabase-service-role-key"
 DATABASE_URL="your-supabase-database-url"
 DIRECT_URL="your-supabase-direct-database-url"
 
-# OpenAI
-OPENAI_API_KEY="your-openai-api-key"
+# AI Provider (using Anthropic Claude)
+ANTHROPIC_API_KEY="your-anthropic-api-key"
+# Or use: OPENAI_API_KEY="your-openai-api-key" for OpenAI
 ```
 
 Get your Supabase credentials from:
@@ -177,7 +178,7 @@ Make sure to set all environment variables in your Vercel project settings:
 - `SUPABASE_SERVICE_ROLE_KEY`
 - `DATABASE_URL`
 - `DIRECT_URL`
-- `OPENAI_API_KEY`
+- `ANTHROPIC_API_KEY` (or `OPENAI_API_KEY` if using OpenAI)
 
 ## Contributing
 
@@ -190,6 +191,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Built with [Next.js](https://nextjs.org)
-- Powered by [OpenAI GPT-4](https://openai.com)
+- Powered by [Anthropic Claude](https://anthropic.com)
 - Database and Auth by [Supabase](https://supabase.com)
 - Co-created with [Claude Code](https://claude.com/claude-code)
